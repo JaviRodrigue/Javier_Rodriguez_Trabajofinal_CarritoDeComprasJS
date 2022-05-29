@@ -1,0 +1,111 @@
+.tituloComentario{
+    color:$color-letra;
+    text-shadow: black 3px 0px 0px;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem;
+}
+.subtituloComentario{
+    color:$color-letra;
+    text-shadow: black 3px 0px 0px;
+    font-size: 1.8em;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom:3rem;
+}
+.contenedorComentario{
+    background-image: url(/css/imagenes/fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+.contenedor{
+    background-color: rgba(0, 0, 0,0.8);
+    width: 70%;
+    height: 800px;
+    margin-top:10rem
+}
+.contenedorFila1{
+    h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:$color-fondo2;
+    }
+    p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:$color-fondo2;
+        font-size: 1.8em;
+    }
+    
+}
+#formulario{
+    .seccionForm{
+        color: white;
+        margin-top:3rem;
+    }
+    .botonComentario{
+        margin-left:10rem;
+        background-color: $color-letra;
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    input{
+        width: 80%;
+        margin:auto
+    }
+    .comentarioT{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    textarea {
+        width: 80%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+    }
+}
+
+// ----------------------------------------------------------------------------------
+.contenedorComentario2{
+    background-image: url(css/imagenes/fondo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}

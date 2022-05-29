@@ -1,0 +1,86 @@
+// -------------------------Main - Inicio----------------------------------
+.jumbotron{
+    background-image: url(/css/imagenes/principal.jpg);
+    @include principio
+}
+.jumboTitulo{
+    color:$color-letra;
+    text-shadow: black 5px 0px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.6rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumboP{
+    color:$color-letra;
+    text-shadow: black 3px 0px 0px;
+    width: 80%;
+    font-size: 2.5rem;
+    margin-left: 4rem;
+    padding-left: 2rem;
+    margin-right: 5rem;
+}
+.boton{
+    .btn{
+        font-size: 2rem;
+        background-color: $color-letra;
+    }
+}
+.boton{
+    .btn:hover{
+        background-color: $color-letra;
+    }
+}
+// ---------------------------------Main - Fin---------------------------------------
+// --------------------------------Acerca de nosotros - Inicio --------------------------
+.nos{
+    color: $color-letra;
+    background-color: $color-fondo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.nosotros{
+    background-color: $color-fondo2;
+}
+.columnaTexto{
+    h3{
+        color:white;
+    }
+}
+.columnaImagen{
+    .imagen{
+        width: 100%;
+    }
+}
+
+.fila{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    h3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        color:black;
+    }
+    p{
+        padding-top:2rem;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 3rem;
+        color:black;
+    }
+}
+p{
+    color:white;
+}
+// --------------------------------Acerca de nosotros - Inicio --------------------------

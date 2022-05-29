@@ -1,0 +1,138 @@
+// -------------------------Reseñas de Hamburguesas - Inicio-------------------------------
+.hero{
+    background-image: url(/css/imagenes/Carrusel1.jpg);
+    @include principio;
+}
+.tituloHero{
+    color:$color-letra;
+    text-shadow: black 3px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+.subTItuloHero{
+    color:rgb(253, 211, 211);
+    font-size: 2em;
+    width: 65%;
+    text-shadow: black 3px 0px 0px;
+    
+}
+.boton{
+    .btn{
+        font-size: 2rem;
+        background-color: $color-letra;
+    }
+}
+.boton{
+    .btn:hover{
+        background-color: $color-letra;
+    }
+}
+.tituloReseña{
+    color: $color-letra;
+    background-color: $color-fondo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.contenedorHamburguesa{
+    background-color :$color-fondo2;
+}
+.imagen{
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all .1s ease-in-out;
+    &:hover{
+        transform: translateY(-10px);
+        cursor: pointer;
+    }
+}
+.card{
+    margin-top: 3rem;
+    border:none;
+    p{
+        color:black;
+    }
+    .btn{
+        background-color: var($color-letra);
+        border-radius: none;
+        &:hover{
+            background-color: $color-letra;
+        }
+    }
+}
+.container hr{
+    margin-top: 3rem;
+    color:black;
+    height: 2px;
+    border:none;
+}
+.titulo-carrito{
+    margin-top: 6rem;
+}
+#finalizar-compra{
+    background-color:rgb(8, 183, 8);
+}
+// -------------------------Reseñas de Hamburguesas - Fin-------------------------------
+// -------------------------Reseñas de Locales - Inicio-------------------------------
+.inicioHamburgueseria{
+    background-image: url(/css/imagenes/Carrusel2.jpg);
+    @include principio;
+}
+.tituloHamburgueseria{
+    color:$color-letra;
+    text-shadow: black 3px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+.subtituloHamburgueseria{
+    color:$color-letra;
+    font-size: 1.8em;
+    text-shadow: black 3px 0px 0px;
+    width: 65%;
+}
+.botonReseña{
+    background-color: $color-letra;
+    &:hover{
+        background-color: rgb(230, 152, 7);
+    }
+}
+.contenedorHamburgueseria{
+    background-color: $color-fondo2;
+}
+.contenedorHamburguesa{
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.precio-producto{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carrito{
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 60% 30%;
+}
+.titulo-comida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+// -------------------------Reseñas de Locales - Fin-------------------------------
+

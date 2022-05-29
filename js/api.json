@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nombre":"hamburguesa bomber",
+        "precio":950,
+        "url":"../css/imagenes/bomber.jpg",
+        "descripcion":"La hamburguesa Bomber es una mosntruosidad es todos sus aspectos. un reboso de ingresdientes y de sabor que te haran pedir otra mas"
+    },
+    {
+        "id": 2,
+        "nombre":"hamburguesa triple",
+        "precio":900,
+        "url":"../css/imagenes/triple.jpg",
+        "descripcion":"Una hamburguesa con triple medallon de carne, aros de cebolla, queso cheddar, queso, salsa teriyaki. idoneo para las persona que les encanta hamburguesas grandes"
+    },
+    {
+        "id": 3,
+        "nombre":"hamburguesa ultraCheddar",
+        "precio":890,
+        "url":"../css/imagenes/ultraCheddar.jpg",
+        "descripcion":"Una hamburguesa con doble carne, queso cheddar, oaxaca y manchego, salchicha, aros de cebolla, piña, pepinillos y aderezo de salsa brava. Vienen con una cascada de cheddar para los amantes del queso cheddar"
+        
+    },
+    {
+        "id": 4,
+        "nombre":"hamburguesa a la beicon",
+        "precio":850,
+        "url":"../css/imagenes/hamburguesaALaBeicon.jpg",
+        "descripcion":"Una hamburguesa con doble medallon de carne, aros de cebolla, triple beicon, pepinos, lechuga, tomate. acompañados de una exquisitas papas"
+    },
+    {
+        "id": 5,
+        "nombre":"hamburguesa Picante",
+        "precio":800,
+        "url":"../css/imagenes/picante.jpg",
+        "descripcion":"Una hamburguesa para los fans del picante, lleva dos medallones de carne, queso cheddar, acusai, tomate y por ultimo la especialidad de la hamburguesa, una salsa picante ahumado"
+    },
+    {
+        "id": 6,
+        "nombre":"hamburguesa de pollo",
+        "precio":790,
+        "url":"../css/imagenes/dePollo.jpg",
+        "descripcion":"Una hamburguesa infrecuente, ya que no cuenta con medallones de carne, contiene pollo frito con cebolla acaremilazada, haciendo una explosion de sabores"
+    },
+    {
+        "id": 7,
+        "nombre":"dona burger",
+        "precio":500,
+        "url":"../css/imagenes/dinaBurger.jpg",
+        "descripcion":"La Dona Burger es un combinacion entre merienda y cena, contiene todo lo delicioso de la hamburguesa, con un toque de miel con savora para dar un toque de agridulce"
+    },
+    {
+        "id": 8,
+        "nombre":"black burger",
+        "precio":700,
+        "url":"../css/imagenes/blackBurgers.jpg",
+        "descripcion":"Saliendo de lo cotidiano, nos encontramos con la Black Burger, es una hamburguesa idonea para acompañarlo con cocteles"
+    },
+    {
+        "id": 9,
+        "nombre":"red burger",
+        "precio":650,
+        "url":"../css/imagenes/redBurger.jpg",
+        "descripcion":"Esta hamburguesa contiene una bola de carne, mas parecida a una albondiga, gracias a ello a ganado mucha popularidad dentro de la region. A su vez su pan es tan esponjo que potencia la carne"
+    }
+]

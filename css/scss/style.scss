@@ -1,0 +1,26 @@
+// ----------------Reset de la pagina - Inicio ------------------------
+*{
+    margin:0;
+    padding:0;
+}
+// ----------------Reset de la pagina - fIN ------------------------
+$color-letra:rgb(226, 106, 8);
+$color-fondo:#212529;
+$color-fondo2:rgb(241, 224, 210);
+
+@mixin principio{
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@import "paginas/headerFooter";
+@import "paginas/principal";
+@import "paginas/contenido";
+@import "paginas/comentarios";
+@import "paginas/mediaQuery";

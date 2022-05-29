@@ -1,0 +1,228 @@
+@media(max-width:992px) and (min-width:700px){
+    .collapse{
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .tituloHero{
+        font-size: 2.2rem;
+    }
+    .subTItuloHero{
+        font-size: 1.8rem;
+    }
+    .boton{
+        .botonHero{
+            font-size: 1.7rem;
+        }
+    }
+    .card{
+        width: 250px;
+        height: 280px;
+        margin-top:5rem
+    }
+    .imagen{
+        width: 200px;
+        height: 200px;
+    }
+    // --------------------------------------------------------------------------------
+    .tituloHamburgueseria{
+        font-size:2.2rem ;
+    }
+    .subtituloHamburgueseria{
+        font-size: 1.8rem;
+    }
+    // --------------------------------------------------------------------------------
+    .tituloComentario{
+        font-size: 2rem;
+    }
+    .subtituloComentario{
+        font-size: 1.8rem;
+    }
+    .contenedorFila1{
+        h2{
+            font-size: 1.6rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .formulario{
+        label{
+            font-size: 1.4rem;
+        }
+    }
+    .contenedor{
+        width: 80%;
+        height: 850px;
+    }
+    
+}
+
+@media(max-width:700px) and (min-width:500px){
+    .jumboTitulo{
+        font-size: 2.2rem;
+    }
+    .jumboP{
+        font-size: 1.6rem;
+    }
+    .boton{
+        .btn{
+            font-size: 1.5rem;
+        }
+    }
+    .collapse{
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    // --------------------------------------------------------------------------------
+    .tituloHero{
+        font-size: 1.8rem;
+    }
+    .subTItuloHero{
+        font-size: 1.5rem;
+    }
+    .boton{
+        .botonHero{
+            font-size: 1.5rem;
+        }
+    }
+    // -------------------------------------------------------------------------------
+    .tituloHamburgueseria{
+        font-size:1.8rem ;
+    }
+    .subtituloHamburgueseria{
+        font-size: 1.5rem;
+    }
+    // --------------------------------------------------------------------------------
+    .tituloComentario{
+        font-size: 1.8rem;
+    }
+    .subtituloComentario{
+        font-size: 1.3rem;
+    }
+    .contenedorFila1{
+        h2{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    .formulario{
+        label{
+            font-size: 1.1rem;
+        }
+    }
+    .contenedor{
+        width: 80%;
+        height: 800px;
+    }
+}
+
+
+
+
+@media(max-width:500px) and (min-width:300px){
+    .collapse{
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .navTitulo{
+        font-size: 0.6rem;
+        width: 5rem;
+    }
+    .logo{
+        width: 0.8rem;
+    }
+    .jumboTitulo{
+        font-size: 1.5rem;
+    }
+    .jumboP{
+        font-size: 1.2rem;
+    }
+    .boton{
+        .btn{
+            font-size: 1.2rem;
+        }
+    }
+    .columnaTexto{
+        h3{
+            font-size: 1.7rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+    }
+     // --------------------------------------------------------------------------------
+    .tituloHero{
+        font-size: 1.4rem;
+    }
+    .subTItuloHero{
+        font-size: 1.3rem;
+    }
+    .boton{
+        .botonHero{
+            font-size: 1.3rem;
+        }
+    }
+    // -------------------------------------------------------------------------------
+    // -------------------------------------------------------------------------------
+    .tituloHamburgueseria{
+        font-size:1.4rem ;
+    }
+    .subtituloHamburgueseria{
+        font-size: 1.3rem;
+        margin-left:1rem;
+    }
+    // -------------------------------------------------------------------------------
+    .tituloHamburgueseria{
+        font-size:1.8rem ;
+    }
+    .subtituloHamburgueseria{
+        font-size: 1.5rem;
+    }
+    // --------------------------------------------------------------------------------
+    .tituloComentario{
+        font-size: 1.2rem;
+    }
+    .subtituloComentario{
+        font-size: 1.05rem;
+    }
+    .contenedorFila1{
+        h2{
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .formulario{
+        label{
+            font-size: 0.8rem;
+        }
+    }
+    .contenedor{
+        width: 90%;
+        height: 800px;
+    }
+
+    th{
+        font-size: 10px;
+    }
+    td{
+        font-size:10px;
+        #vaciar-carrito{
+            font-size:10px;
+        }
+    }
+    tr{
+        button{
+            font-size: 20px;
+        }
+    }
+}

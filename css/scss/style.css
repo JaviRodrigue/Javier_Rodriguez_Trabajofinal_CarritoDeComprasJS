@@ -1,0 +1,918 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  margin-left: 1em;
+  width: 3em;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.logo img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.navTitulo {
+  margin-left: 1em;
+}
+
+.navTitulo h1 {
+  font-size: 2.5em;
+  color: #f1c7c7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navTitulo span {
+  font-size: 1.5em;
+  color: #e26a08;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-item {
+  margin-left: 2.5rem;
+}
+
+.nav-item a {
+  font-size: 1.2rem;
+}
+
+/* -----------------------------Header - Fin------------------------------------ */
+/* -------------------------Footer - Inicio------------------------------------ */
+footer {
+  padding: 50px 0px;
+  background-image: url(/css/imagenes/fondoFoo1.svg);
+  background-size: cover;
+}
+
+.container__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+}
+
+.titleFoo {
+  color: #e26a08;
+}
+
+.box__footer .explicacionFoo {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.box__footer h4 {
+  margin-bottom: 30px;
+  color: #e26a08;
+  font-weight: 700;
+}
+
+.box__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+
+.box__footer a:hover {
+  opacity: 0.8;
+}
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+
+.box__copyright hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+}
+
+.box__footer img {
+  width: 1.8rem;
+}
+
+.jumbotron {
+  background-image: url(/css/imagenes/principal.jpg);
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jumboTitulo {
+  color: #e26a08;
+  text-shadow: black 5px 0px 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jumboP {
+  color: #e26a08;
+  text-shadow: black 3px 0px 0px;
+  width: 80%;
+  font-size: 2.5rem;
+  margin-left: 4rem;
+  padding-left: 2rem;
+  margin-right: 5rem;
+}
+
+.boton .btn {
+  font-size: 2rem;
+  background-color: #e26a08;
+}
+
+.boton .btn:hover {
+  background-color: #e26a08;
+}
+
+.nos {
+  color: #e26a08;
+  background-color: #212529;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nos {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+
+.nosotros {
+  background-color: #f1e0d2;
+}
+
+.columnaTexto h3 {
+  color: white;
+}
+
+.columnaImagen .imagen {
+  width: 100%;
+}
+
+.fila {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.fila h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.fila p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  color: black;
+}
+
+p {
+  color: white;
+}
+
+.hero {
+  background-image: url(/css/imagenes/Carrusel1.jpg);
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tituloHero {
+  color: #e26a08;
+  text-shadow: black 3px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3em;
+}
+
+.subTItuloHero {
+  color: #fdd3d3;
+  font-size: 2em;
+  width: 65%;
+  text-shadow: black 3px 0px 0px;
+}
+
+.boton .btn {
+  font-size: 2rem;
+  background-color: #e26a08;
+}
+
+.boton .btn:hover {
+  background-color: #e26a08;
+}
+
+.tituloReseña {
+  color: #e26a08;
+  background-color: #212529;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+
+.contenedorHamburguesa {
+  background-color: #f1e0d2;
+}
+
+.imagen {
+  width: 300px;
+  height: 300px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.imagen:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.card {
+  margin-top: 3rem;
+  border: none;
+}
+
+.card p {
+  color: black;
+}
+
+.card .btn {
+  background-color: var(#e26a08);
+  border-radius: none;
+}
+
+.card .btn:hover {
+  background-color: #e26a08;
+}
+
+.container hr {
+  margin-top: 3rem;
+  color: black;
+  height: 2px;
+  border: none;
+}
+
+.titulo-carrito {
+  margin-top: 6rem;
+}
+
+#finalizar-compra {
+  background-color: #08b708;
+}
+
+.inicioHamburgueseria {
+  background-image: url(/css/imagenes/Carrusel2.jpg);
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tituloHamburgueseria {
+  color: #e26a08;
+  text-shadow: black 3px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3em;
+}
+
+.subtituloHamburgueseria {
+  color: #e26a08;
+  font-size: 1.8em;
+  text-shadow: black 3px 0px 0px;
+  width: 65%;
+}
+
+.botonReseña {
+  background-color: #e26a08;
+}
+
+.botonReseña:hover {
+  background-color: #e69807;
+}
+
+.contenedorHamburgueseria {
+  background-color: #f1e0d2;
+}
+
+.contenedorHamburguesa {
+  margin-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.precio-producto {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carrito {
+  margin-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: 60% 30%;
+      grid-template-columns: 60% 30%;
+}
+
+.titulo-comida {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tituloComentario {
+  color: #e26a08;
+  text-shadow: black 3px 0px 0px;
+  font-size: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+.subtituloComentario {
+  color: #e26a08;
+  text-shadow: black 3px 0px 0px;
+  font-size: 1.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+.contenedorComentario {
+  background-image: url(/css/imagenes/fondo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 70%;
+  height: 800px;
+  margin-top: 10rem;
+}
+
+.contenedorFila1 h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f1e0d2;
+}
+
+.contenedorFila1 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f1e0d2;
+  font-size: 1.8em;
+}
+
+#formulario .seccionForm {
+  color: white;
+  margin-top: 3rem;
+}
+
+#formulario .botonComentario {
+  margin-left: 10rem;
+  background-color: #e26a08;
+}
+
+#formulario label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5em;
+}
+
+#formulario input {
+  width: 80%;
+  margin: auto;
+}
+
+#formulario .comentarioT {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#formulario textarea {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.contenedorComentario2 {
+  background-image: url(css/imagenes/fondo3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 992px) and (min-width: 700px) {
+  .collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .tituloHero {
+    font-size: 2.2rem;
+  }
+  .subTItuloHero {
+    font-size: 1.8rem;
+  }
+  .boton .botonHero {
+    font-size: 1.7rem;
+  }
+  .card {
+    width: 250px;
+    height: 280px;
+    margin-top: 5rem;
+  }
+  .imagen {
+    width: 200px;
+    height: 200px;
+  }
+  .tituloHamburgueseria {
+    font-size: 2.2rem;
+  }
+  .subtituloHamburgueseria {
+    font-size: 1.8rem;
+  }
+  .tituloComentario {
+    font-size: 2rem;
+  }
+  .subtituloComentario {
+    font-size: 1.8rem;
+  }
+  .contenedorFila1 h2 {
+    font-size: 1.6rem;
+  }
+  .contenedorFila1 p {
+    font-size: 1.5rem;
+  }
+  .formulario label {
+    font-size: 1.4rem;
+  }
+  .contenedor {
+    width: 80%;
+    height: 850px;
+  }
+}
+
+@media (max-width: 700px) and (min-width: 500px) {
+  .jumboTitulo {
+    font-size: 2.2rem;
+  }
+  .jumboP {
+    font-size: 1.6rem;
+  }
+  .boton .btn {
+    font-size: 1.5rem;
+  }
+  .collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .tituloHero {
+    font-size: 1.8rem;
+  }
+  .subTItuloHero {
+    font-size: 1.5rem;
+  }
+  .boton .botonHero {
+    font-size: 1.5rem;
+  }
+  .tituloHamburgueseria {
+    font-size: 1.8rem;
+  }
+  .subtituloHamburgueseria {
+    font-size: 1.5rem;
+  }
+  .tituloComentario {
+    font-size: 1.8rem;
+  }
+  .subtituloComentario {
+    font-size: 1.3rem;
+  }
+  .contenedorFila1 h2 {
+    font-size: 1.2rem;
+  }
+  .contenedorFila1 p {
+    font-size: 1.2rem;
+  }
+  .formulario label {
+    font-size: 1.1rem;
+  }
+  .contenedor {
+    width: 80%;
+    height: 800px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .navTitulo {
+    font-size: 0.6rem;
+    width: 5rem;
+  }
+  .logo {
+    width: 0.8rem;
+  }
+  .jumboTitulo {
+    font-size: 1.5rem;
+  }
+  .jumboP {
+    font-size: 1.2rem;
+  }
+  .boton .btn {
+    font-size: 1.2rem;
+  }
+  .columnaTexto h3 {
+    font-size: 1.7rem;
+  }
+  .columnaTexto p {
+    font-size: 1.3rem;
+  }
+  .tituloHero {
+    font-size: 1.4rem;
+  }
+  .subTItuloHero {
+    font-size: 1.3rem;
+  }
+  .boton .botonHero {
+    font-size: 1.3rem;
+  }
+  .tituloHamburgueseria {
+    font-size: 1.4rem;
+  }
+  .subtituloHamburgueseria {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+  .tituloHamburgueseria {
+    font-size: 1.8rem;
+  }
+  .subtituloHamburgueseria {
+    font-size: 1.5rem;
+  }
+  .tituloComentario {
+    font-size: 1.2rem;
+  }
+  .subtituloComentario {
+    font-size: 1.05rem;
+  }
+  .contenedorFila1 h2 {
+    font-size: 1.1rem;
+  }
+  .contenedorFila1 p {
+    font-size: 1rem;
+  }
+  .formulario label {
+    font-size: 0.8rem;
+  }
+  .contenedor {
+    width: 90%;
+    height: 800px;
+  }
+  th {
+    font-size: 10px;
+  }
+  td {
+    font-size: 10px;
+  }
+  td #vaciar-carrito {
+    font-size: 10px;
+  }
+  tr button {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
